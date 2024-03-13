@@ -37,17 +37,17 @@ void main() {
   print(y > x ||
       y < z); // logical true || true = true; false || false = false, true || false = true; ||=OU
   //SPECIAL CHARECTER
-  print("mohammed djeghaba is\nflutter devlopper"); // \n go to new line
-  print("mohammed\tdjeghaba"); //\t make 4 space
-  print("mohammed\rdjeghaba"); // \r supprimer li 9belha
-  print("mohammed\bdjeghaba"); //delete one space
-  print("mohammed\bdjeghaba");
-  print("mohammed djeghaba\"hello\"");
+  print("mohammed djega is\nflutter devlopper"); // \n go to new line
+  print("mohammed\tdjdda"); //\t make 4 space
+  print("mohammed\rdaoud"); // \r supprimer li 9belha
+  print("mohammed\bdjea"); //delete one space
+  print("mohammed\bdjega");
+  print("mohammed djea\"hello\"");
   print("c\\");
-  print("mohammed\djeghaba"); // r matkhalich \n tekhdem
+  print("mohammed\djega"); // r matkhalich \n tekhdem
   print("c\\\\");
-  print(r"mohammed\ndjeghaba");
-  print(""" mohammed djeghaba 
+  print(r"mohammed\ndjea");
+  print(""" mohammed djega 
   ffgfg
   gferge """); //hada yhebet star }
   print("your name");
@@ -65,4 +65,15 @@ void main() {
   print("true or false =");
   bool success = bool.parse(stdin.readLineSync()!);
   print(success);
+
+  // if Statement condition
+  if (x == 50) {
+    print("equal 50");
+  } else if (x == 100) {
+    print("equal 100");
+  } else if (x == 150) {
+    print("equal 150");
+  } else {
+    print("not correct conditon");
+  }
 }
